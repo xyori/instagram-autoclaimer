@@ -93,7 +93,7 @@ def len(item):
       len += 1
    return len
 
-def ksm_ghost():
+def banner():
 
    from pyfiglet import figlet_format
    from ctypes import windll
@@ -109,7 +109,7 @@ def ksm_ghost():
    print(f'{C.SRB}     ( {C.FG}{choice(title)}{C.SRB} )\n{C.FG}{figlet_format(f" {j.b_}", font = "slant" )}')
    del title
 
-ksm_ghost()
+banner()
 
 class System:
 
