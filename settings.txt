@@ -1,0 +1,8 @@
+{"settings" :  {
+	"webhook":   "",
+	"name"	 :   "",
+	"banner" :   "",
+  "biography": "",
+	"nickname":  "",
+	"message":   ""}
+		}
